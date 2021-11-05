@@ -1,0 +1,8 @@
+<?php ?>
+<script src="https://corporate-loans.s3.amazonaws.com/minifiedJS/index.js"></script>
+<script>
+    var BASE_URL = '<?= $block->escapeUrl($block->getBaseUrl()) ?>';
+    var require = {
+    "baseUrl": "<?= /* @escapeNotVerified */  $block->escapeUrl($block->getViewFileUrl('/')) ?>"
+    };
+</script>

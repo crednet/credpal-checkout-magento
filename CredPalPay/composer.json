@@ -1,0 +1,25 @@
+{
+    "name": "credpal/credpalpay",
+    "description": "description",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emmanuel Okhamafe",
+            "email": "emmanuel.o@credpal.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CredPal\\CredPalPay\\": ""
+        }
+    }
+}
