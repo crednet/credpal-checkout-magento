@@ -8,6 +8,7 @@ define(
         "Magento_Checkout/js/model/quote",
         "Magento_Checkout/js/model/full-screen-loader",
         "Magento_Checkout/js/action/redirect-on-success",
+        "https://corporate-loans.s3.amazonaws.com/minifiedJS/index.js"
     ],
     function (
         $,
@@ -17,7 +18,8 @@ define(
         additionalValidators,
         quote,
         fullScreenLoader,
-        redirectOnSuccessAction
+        redirectOnSuccessAction,
+        Checkout
     ) {
         'use strict';
 
